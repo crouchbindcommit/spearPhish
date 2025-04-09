@@ -42,7 +42,7 @@ def run_spear_phish_prompt(prompt: str, api_key: str):
 # ========== Email Spoofing Simulation ==========
 def generate_email_with_attachment(
     from_name="Sarah Chen",
-    from_email="dr.kim@utk-careers.org",  # spoofed
+    from_email="schen54@vols.utk.edu",  # spoofed
     to_email="dkim@utk.edu",
     subject="Research Opportunity Inquiry",
     body=None,
